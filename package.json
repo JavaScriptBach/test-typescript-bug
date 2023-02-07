@@ -1,0 +1,19 @@
+{
+  "name": "test-promise-tsc",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc -b -v --force"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "17.0.1",
+    "react": "17.0.1",
+    "typescript": "4.9.5"
+  }
+}

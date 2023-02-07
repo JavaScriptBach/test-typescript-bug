@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "strict": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "skipLibCheck": true,
+    "noEmit": true,
+    "jsx": "react",
+    "lib": ["es2021", "dom"],
+    "rootDir": "./src"
+  },
+  "include": ["src/maybe.ts", "src/react.tsx", "src/promise.ts"],
+  "exclude": ["node_modules"]
+}
